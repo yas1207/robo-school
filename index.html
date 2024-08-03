@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    
+    <section class="promo">
+       
+            <header class="header">
+                <a class="logo" href="#">
+                    <img src="./img/ROBO.SCHOOL.svg" alt="">
+                </a>
+    
+                <button class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            <nav class="menu">
+                <a href="#">О школе</a>
+                <a href="#">Тренеры</a>
+                <a href="#">Стоимость</a>
+    
+               
+            </nav>
+            <a class="tel" href="#">+7 800 000 11 22</a>
+            </header>
+
+            
+
+                <div class="promo_box">
+                    <div class="item_text">
+                        <h1>ROBO SCHOOL</h1>
+                        <p>Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+                        <button class="btn">Записаться на курс</button>
+                    </div>
+
+               
+                    <div class="item_img">
+                        
+                        <img class="girl" src="./img/girl.png" alt="">
+                        
+                    </div>
+                </div>
+               
+            </section>
+
+            <section class="info">
+                <div class="container">
+                    <p class="text"> <b>Robo School</b> – учреждение для формирования кадрового <br> педагогического резерва в сфере робототехники <br> и программирования</p>
+
+                        <div class="info_grid">
+
+                            <div class="info_elem">
+                                <h3>10</h3>
+                                <p>УМК по различным направлениям по робототехнике</p>
+                            </div>
+
+                            <div class="info_elem">
+                                <h3>20</h3>
+                                <p>Школ, в которых запущена робототехника</p>
+                            </div>
+
+                            <div class="info_elem">
+                                <h3>100</h3>
+                                <p>Педагогов прошедших курсы повышения квалификации</p>
+                            </div>
+
+                            <div class="info_elem">
+                                <h3>10 000</h3>
+                                <p>Обученных детей на базе собственных центров</p>
+                            </div>
+
+                        </div>
+                </div>
+            </section>
+
+            <section class="pro_teachers">
+                <div class="container">
+                    <h2>Профессиональные тренеры</h2>
+
+                    <div class="pro_grid">
+
+                        <div class="pro_elem ppl1">
+                            <img src="./img/ppl1.jpg" alt="">
+
+                            <h3>Ирина Лайм</h3>
+                            <p>преподаватель по робототехнике</p>
+                            <a href="#">Подробнее</a>
+                        </div>
+
+                        <div class="pro_elem">
+                            <img src="./img/ppl2.jpg" alt="">
+
+                            <h3>Марина Орлова</h3>
+                            <p>преподаватель по робототехнике</p>
+                            <a href="#">Подробнее</a>
+                        </div>
+
+                        <div class="pro_elem">
+                            <img src="./img/ppl3.jpg" alt="">
+
+                            <h3>Максим Петров</h3>
+                            <p>преподаватель по программированию</p>
+                            <a href="#">Подробнее</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <a href="#" class="logof">
+                    <img src="./img/ROBO.SCHOOL.svg" alt="">
+                    <p>© ROBO.SCHOOL</p>
+                </a>
+
+                <a href="#" class="telf">
+                    +7 800 000 11 22
+                </a>
+               
+            </footer>
+
+            <footer class="f2">
+                <a href="#" class="logof2">
+                    <img src="./img/ROBO.SCHOOL.svg" alt="">
+                    <p class="telf2"> +7 800 000 11 22</p>
+                    <p>© ROBO.SCHOOL</p>
+                </a>
+            </footer>
+          
+            
+          <script>
+            let btnMenu=document.querySelector(".burger")
+            let menu=document.querySelector(".menu")
+
+            btnMenu.onclick=()=>menu.classList.toggle("open")
+          </script>
+       
+
+</body>
+</html>

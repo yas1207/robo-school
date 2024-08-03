@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+
+}
+
+.promo {
+    background: url(../img/robobg.png) no-repeat center / cover;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu a {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    
+    color: white;
+    text-decoration: none;
+}
+
+.burger {
+    display: none;
+}
+
+.tel {
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+}
+
+.promo_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 92px;
+    gap: 28px;
+    position: relative;
+}
+
+.item_text {
+    width: 700px;
+    
+    padding-top: 20px;
+
+}
+
+.item_text h1 {
+    font-family: Jost;
+    font-size: 70px;
+    font-weight: 600;
+    
+    color: white;
+    padding-bottom: 20px;
+}
+
+.item_text p {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.btn {
+    width: Hug (260px)px;
+    height: Hug (79px)px;
+    top: 590px;
+    left: 380px;
+    padding: 25px 54px 25px 54px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 0;
+    opacity: 0px;
+    background-color: rgba(213, 32, 39, 1);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.girl {
+    width: 500px;
+    height: 600px;
+    top: 162.52px;
+    left: 924px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 20px;
+
+   
+    
+   
+    
+}
+
+
+
+
+.text {
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    padding-top: 120px;
+    
+}
+
+.info_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 60px;
+    gap: 40px;
+}
+
+.info_elem h3 {
+    font-family: Jost;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 112px;
+    text-align: left;
+    color: rgba(213, 32, 39, 1);        
+    
+}
+
+.info_elem p {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: rgba(20, 16, 36, 0.7);
+
+}
+
+.pro_teachers {
+    padding-bottom: 130px;
+    padding-top: 105px;
+}
+
+.pro_teachers h2 {
+    font-family: Jost;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: left;
+    color: rgba(20, 16, 36, 1);
+    padding-bottom: 60px;
+    
+}
+
+.pro_grid {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 40px;
+}
+
+.pro_elem {
+    width: 300px;
+    height: 359px;
+    top: 1718px;
+    left: 10px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+}
+
+
+.pro_elem h3 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.4px;
+    text-align: left;
+    color: rgba(20, 16, 36, 1);
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+.pro_elem p {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: rgba(20, 16, 36, 0.7);
+    padding-bottom: 20px;
+
+
+}
+
+.pro_elem a {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: rgba(213, 32, 39, 1);
+    text-decoration: none;
+
+}
+
+footer {
+    background: url(../img/robobg.png) no-repeat center / cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    padding-top: 5px;
+
+}
+.telf {
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 71px;
+    color: white;
+}
+
+.logof {
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 71px;
+}
+
+.f2 {
+    display: none;
+}
+
+
